@@ -13,9 +13,10 @@ textarea {
   padding: 10px;
 }
 
+/* modiified background color to lightgray*/
 header {
   text-align: center;
-  background-color: transparent;
+  background-color: lightgray;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
