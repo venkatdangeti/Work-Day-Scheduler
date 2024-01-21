@@ -32,29 +32,12 @@ var weekdayName = [
   "Saturday"
 ];
 
-// var currentDayEle = $('#currentDay');
-
-// weekday = weekdayName[dayjs().day()]; //0 to 6 starts on sat
-// day = dayjs().date(); //1 to 31
-// month = monthName[dayjs().month()]; //0 to 11 starts on Janaury
-// hour = dayjs().hour(); // 0 to 23 starts on 12 AM
-
-
-// //prints out current date
-// currentDayEle.text(weekday + ", " + month + " " + day);
 
 $(document).ready(function () {
-  //Moment.js code for current date and time
-  let NowMoment = dayjs().format("MMMM Do YYYY");
+  //day.js code for current date and time
+  let NowMoment = dayjs().format("MMMM D, YYYY h:mm A");
   let displayDate = document.getElementById("currentDay");
   displayDate.innerHTML = NowMoment;
   let currentHour = dayjs().format("HH");
-
-  // Button function to clear local storage and clear contents
-  $("#clearFieldsBtn").click(function (event) {
-    event.preventDefault;
-    $("textarea").val("");
-    localStorage.clear();
-  });
 
 });
