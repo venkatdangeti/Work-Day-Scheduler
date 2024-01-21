@@ -43,7 +43,7 @@ $(document).ready(function () {
 });
 
 
-//get hour from each time block ad compares it to actual time
+//get hour from each time block and compares it to actual time
 $(".time-div").each(function () {
   var timeDiv = $(this).attr("id").split("-")[1];
 
