@@ -23,4 +23,14 @@ $(document).ready(function () {
       $(this).addClass("past");
     }
   });
+
+  //get values from time and value divs and save them to the local storage
+  $(".saveBtn").click(function (event) {
+    event.preventDefault();
+    var value = $(this).siblings(".time-block").val();
+    var time = $(this).parent().attr("id").split("-")[1];
+    localStorage.setItem(time, value);
+  });
+
+
 });
