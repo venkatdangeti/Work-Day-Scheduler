@@ -23,8 +23,10 @@ header {
   padding: 60px;
 }
 
+/* added font-weight  */
 .description {
   white-space: pre-wrap;
+  font-weight: 600;
 }
 
 .time-block {
@@ -38,10 +40,14 @@ header {
   border-radius: 15px;
 }
 
+/* aaded more style details to hour  */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 550;
 }
 
 .past {
