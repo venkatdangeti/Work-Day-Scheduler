@@ -31,6 +31,7 @@ The app should:
 
 * Persist events between refreshes of a page
 
+
 The following screenshots demonstrates the application functionality:
 
 
@@ -49,3 +50,10 @@ Add another Event Page : ![Alt text](images/Workday%20Scheduler_add1.png)
 Remove Added event Page : ![Alt text](images/Workday%20Scheduler_remove.png)
 
 Color Pattern Page : ![Alt text](images/Workday%20Scheduler_color%20pattern.png)
+
+
+
+
+## Git Hub page - https://github.com/venkatdangeti/Work-Day-Scheduler.git
+
+## Deployed site page - https://venkatdangeti.github.io/Work-Day-Scheduler/
