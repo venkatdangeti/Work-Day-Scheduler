@@ -31,4 +31,21 @@ The app should:
 
 * Persist events between refreshes of a page
 
-The following animation demonstrates the application functionality:
+The following screenshots demonstrates the application functionality:
+
+
+## Final Screens
+
+Main Page : ![Alt text](images/Workday%20Scheduler_Main.png)
+
+Add Page : ![Alt text](images/Workday%20Scheduler_add.png)
+
+Save Page : ![Alt text](images/Workday%20Scheduler_save.png)
+
+Refresh Page : ![Alt text](images/Workday%20Scheduler_refresh.png)
+
+Add another Event Page : ![Alt text](images/Workday%20Scheduler_add1.png)
+
+Remove Added event Page : ![Alt text](images/Workday%20Scheduler_remove.png)
+
+Color Pattern Page : ![Alt text](images/Workday%20Scheduler_color%20pattern.png)
